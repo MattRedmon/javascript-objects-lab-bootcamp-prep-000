@@ -22,8 +22,9 @@ function deleteFromObjectByKey(object, key) {
 
 
 
-function destructivelyDeleteFromObjectByKey(object, [key]) {
+function destructivelyDeleteFromObjectByKey(object, key) {
   delete object[key]
   return object
 }
+
 // above not working in console, error in code somewhere - 12/13/17
